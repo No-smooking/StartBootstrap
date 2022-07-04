@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background-image: url(../img/header-bg.jpg);
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 187px;
+    height: 32px;
+}
+
+.header-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu ul li {
+    padding: 0 20px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-title {
+    padding: 202px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.title span {
+    color: #fff;
+}
+
+.text-top {
+    padding-bottom: 32px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.text-bottom {
+    padding-bottom: 32px;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 21px;
+    width: 225px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services,
+.protpolio,
+.about,
+.team,
+.contact
+{
+    text-align: center;
+    align-items: center;
+    padding: 96px 14%;
+
+}
+
+.protpolio-title,
+.services-title,
+.about-title,
+.team-title,
+.contact-title {
+    text-align: center;
+    /* padding-left: 50px; */
+}
+
+.about-title {
+    padding-left: 50px;
+}
+
+.timeline ul{
+    position: relative;
+}
+
+.timeline ul::before{
+    content: "";
+    border: 2px solid #dedede;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 51.5%;
+    display: inline-block;
+    z-index: 1;
+}
+
+.timeline-img-1 img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%);
+    z-index: 1000;
+}
+
+.timeline-img-2 img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%);
+    z-index: 1000;
+}
+
+.timeline-bottom h4{
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%);
+    z-index: 1000;
+}
+
+
+.protpolio-title span,
+.services-title span,
+.about-title span,
+.team-title span,
+.contact-title span {
+    color: #000;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.about-title p,
+.protpolio-title p,
+.services-title p,
+.team-title p,
+.contact-title p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 64px;
+}
+
+.about-item,
+.services-item,
+.protpolio-item,
+.contact-item,
+.partner-item{
+    text-align: center;
+    align-items: center;
+}
+
+.item h1{
+    text-align: center;
+    width: 128px;
+    padding: 32px 0;
+    margin:  0 35%;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.item i {
+    font-size: 64px;
+    color: #fff;
+}
+
+.item span {
+    margin: 16px 0;
+}
+
+.item span {
+    font-size: 24px;
+    color:#000;
+    font-weight: 600;
+}
+
+.item p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+
+}
+
+.item img {
+    width: 100%;
+}
+
+.timeline-img-1 img{
+    border: 10px solid #dedede;
+    border-radius: 50%;
+}
+
+.timeline-img-2 img{
+    border: 10px solid #dedede;
+    border-radius: 50%;
+}
+
+.timeline-panel-1 {
+    text-align: right;
+    padding-right: 45px;
+    overflow: hidden;
+}
+
+.timeline-panel-2 {
+    padding-left: 55px;
+    text-align: left;
+    /* padding-right: 170px; */
+}
+
+.timeline ul li {
+    margin-bottom: 100px;
+}
+
+.col-md-2 h4{
+    width: 220px;
+    padding: 56.83px;
+    text-align: center;
+    border: 10px solid #dedede;
+    border-radius: 50%;
+    background-color: orange;
+    color: #fff;
+    font-weight: 600;
+}
+
+.team-item {
+    text-align: center;
+    /* align-items: center; */
+    margin-bottom: 48px;
+}
+
+.item-img img{
+    max-width: 224px;
+    border: 10px solid #dedede;
+    border-radius: 50%;
+}
+
+.item-headding h4{
+    margin-top: 24px;
+}
+
+.item-headding p{
+    margin-bottom: 16px;
+}
+
+.item-icon {
+    margin-bottom: 20px;
+}
+
+.item-icon a{
+    background-color: #000;
+    padding: 9.5px 12px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.item-icon a:first-child{
+    padding: 9.5px 15px;
+}
+
+.item-icon a:last-child{
+    padding: 9.5px 13px;
+}
+
+.item-icon a i{
+    font-size: 16px;
+}
+
+.partner{
+    padding: 0 14%;
+
+}
+
+.partner-item {
+    padding: 0 0 48px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.partner-img a{
+    max-width: 261px;
+}
+
+.partner-img:first-child a img{
+    padding: 0;
+}
+
+
+.partner-img:nth-last-child(2) a img{
+    padding: 0 10%;
+}
+.partner-img:nth-last-child(3) a img{
+    padding: 0 15%;
+}
+.partner-img:last-child a img{
+    padding: 0 25%;
+}
+
+.from {
+    padding:0 12px ;
+    text-align: left;
+}
+
+.from-item {
+    margin-bottom: 30px;
+}
+
+.from-item:last-child{
+    margin-bottom: 0;
+}
+
+.form-control {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 0; 
+}
+
+.contact-button{
+    margin-top: 48px;
+    text-align: center;
+    
+}
+
+.contact-button button {
+    color: #fff;
+    padding: 30px 0;
+    background-color: orange;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.contact {
+    background-image: url(https://i.pinimg.com/originals/74/75/1e/74751e37b5d83b7f62b3c571d379cd11.jpg);
+}
+
+.contact-title span,
+.contact-title p {
+    color: #fff;
+}
+
+.footer {
+    margin: 24px;
+    text-align: center;
+}
+
+.footer-item .item-icon{
+    text-align: right;
+}
+
+.footer-item:last-child a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;    
+}
+
+.footer-item .item-icon a i{
+    color: #fff;
+}
+
+.footer-item{
+    text-align: center;
+}
+
+
+
+
+
